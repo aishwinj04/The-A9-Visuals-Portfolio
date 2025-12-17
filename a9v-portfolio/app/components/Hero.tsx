@@ -20,7 +20,7 @@ export const Hero = () => {
                         whileTap={{transition:{duration: 1.5}, scale: 1.2}}
                     >
                         <div className="absolute inset-0 bg-gradient-to-b from-blue-400/30 to-trasparent rounded-full blur-3xl"></div>
-                        <Image src={logo} alt="logo" className="w-[250px] relative z-10"></Image>
+                        <Image src={logo} alt="logo" className="w-[300px] relative z-10"></Image>
                     </motion.div>
 
 
@@ -30,10 +30,10 @@ export const Hero = () => {
                         animate={{opacity: 1, y:0}}
                         transition={{duration: 1.5}}
                     >
-                        <h1 className="hero-title text-7xl text-white/80 max-w-none mx-auto leading-snug mb-6">
+                        <h1 className="hero-title text-6xl text-white/90 max-w-none mx-auto leading-snug mb-6">
                             Welcome to <br/> <span className="text-blue-300 text-8xl">The A9 Visuals</span>
                         </h1>
-                        <p className="hero-p text-xl text-white/80 max-w-lg mx-auto font-bold leading-relaxed mb-6">
+                        <p className="hero-p text-xl text-white/80 max-w-none mx-auto font-bold leading-relaxed mb-6">
                             A Toronto-based visual production studio specializing in videography and post-production, delivering cinematic visuals through thoughtful storytelling and clean, modern editing.
                         </p>
 
