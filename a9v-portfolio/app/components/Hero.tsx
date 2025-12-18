@@ -19,7 +19,7 @@ export const Hero = () => {
                         transition={{duration: 1.5}}
                         whileTap={{transition:{duration: 1.5}, scale: 1.2}}
                     >
-                        <div className="absolute inset-0 bg-gradient-to-b from-blue-400/30 to-trasparent rounded-full blur-3xl"></div>
+                        <div className="absolute inset-0 bg-gradient-to-b from-blue-400/50 to-trasparent rounded-full blur-3xl"></div>
                         <Image src={logo} alt="logo" className="w-[300px] relative z-10"></Image>
                     </motion.div>
 
@@ -30,18 +30,19 @@ export const Hero = () => {
                         animate={{opacity: 1, y:0}}
                         transition={{duration: 1.5}}
                     >
-                        <h1 className="hero-title text-6xl text-white/90 max-w-none mx-auto leading-snug mb-6">
+                        <motion.h1 className="hero-title text-6xl text-white/90 max-w-none mx-auto leading-snug mb-6" whileHover={{scale: 1.12}}>
                             Welcome to <br/> <span className="text-blue-300 text-8xl">The A9 Visuals</span>
-                        </h1>
+                        </motion.h1>
                         <p className="hero-p text-xl text-white/80 max-w-none mx-auto font-bold leading-relaxed mb-6">
-                            A Toronto-based visual production studio specializing in videography and post-production, delivering cinematic visuals through thoughtful storytelling and clean, modern editing.
+                            We are a Toronto-based visual production team specializing in videography and post-production, crafting engaging visuals through storytelling and precise editing. 
+                            Our services also include web and graphic design, ensuring a cohesive brand experience.
                         </p>
 
                         <div className="flex gap-8 justify-center">
                             <motion.button
                                 className="px-6 py-3 bg-gradient-to-r from-blue-700 to-blue-400/60 rounded-full font-bold hover:bg-blue-700 transition-colors"
                                 whileHover={{scale:1.2}}>
-                                Contact Me
+                                Contact Us
                             </motion.button>
 
                             <motion.button
