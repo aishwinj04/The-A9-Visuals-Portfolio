@@ -50,7 +50,7 @@ export const LogoAnimation = () => {
                 <div className="overflow-hidden 
                 [mask-image:linear-gradient(to_right,_transparent,_black_10%,_black_75%,_transparent)]">
                     
-                    <motion.div className="flex gap-10 flex-none"
+                    <motion.div className="flex gap-25 flex-none"
                         animate={{translateX: "-50%"}}
                         transition={{duration: 35, repeat: Infinity, ease: "linear", repeatType: "loop"}}
                        >

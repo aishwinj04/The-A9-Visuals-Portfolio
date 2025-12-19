@@ -1,8 +1,8 @@
 import { Progress } from "@/components/ui/progress";
 import Image from "next/image";
-import exp1 from "../../public/assets/expertise1.png"
-import exp2 from "../../public/assets/expertise2.png"
-import goals from "../../public/assets/goals.png"
+import exp1 from "../../public/assets/expertise1.png";
+import exp2 from "../../public/assets/expertise2.png";
+import goals from "../../public/assets/goals.png";
 
 
 
