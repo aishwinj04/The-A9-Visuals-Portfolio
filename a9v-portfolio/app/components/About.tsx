@@ -1,7 +1,7 @@
 import { Progress } from "@/components/ui/progress";
 import Image from "next/image";
-import project1 from "../../public/assets/proj1.png"
-import project2 from "../../public/assets/proj2.png"
+import exp1 from "../../public/assets/expertise1.png"
+import exp2 from "../../public/assets/expertise2.png"
 import goals from "../../public/assets/goals.png"
 
 
@@ -30,17 +30,18 @@ export const About = () => {
                 <div className="border border-white/20 rounded-lg p-6">
                     <h3 className="text-2xl font-bold mb-2">02. Expertise</h3>
                     <p className="text-white/50">
-                    Our expertise lies in crafting high-impact visual content through professional videography, photography, and post-production.
-                    We specialize in cinematic storytelling, precise editing, and creative color grading to ensure every project feels polished and intentional. 
-                    With hands-on experience working on events, promotional content, and creative projects, we transform raw footage into visuals that captivate, communicate, and elevate your brand’s message.
+                    Our expertise lies in crafting high-impact visual experiences through professional videography, photography, web design, and graphic design. 
+                    We specialize in cinematic storytelling, precise editing, creative color grading, and clean, modern digital design to ensure every project feels polished, intentional, and on-brand. 
+                    With hands-on experience working with high-profile clients across events, promotional campaigns, and creative projects, we transform ideas and raw assets into compelling visuals and digital experiences that captivate, communicate, and elevate your brand’s message.
+                    
                     </p>
                     <div className="mt-4 relative border border-white/20 rounded-lg p-4 h-[200px] overflow-hidden">
-                        <Image src={project1} alt="project1" className="rounded-lg" layout="fill" objectFit="cover"></Image>
+                        <Image src={exp1} alt="project1" className="rounded-lg" layout="fill" objectFit="cover"></Image>
                         
 
                     </div>
                     <div className="mt-4 relative border border-white/20 rounded-lg p-4 h-[200px] overflow-hidden">
-                        <Image src={project2} alt="project2" className="rounded-lg" layout="fill" objectFit="cover"></Image>
+                        <Image src={exp2} alt="project2" className="rounded-lg" layout="fill" objectFit="cover"></Image>
                         
 
                     </div>
@@ -57,9 +58,9 @@ export const About = () => {
                         <div className="border border-white/20 rounded-lg p-3 wrap-break-word">
                             <h4 className="text-blue-300 text-lg font-medium mb-2">Videography</h4>
                             <ul className="text-white/50 space-y-1 text-sm">
-                                <li>Social Media Reels/Shorts</li>
                                 <li>Event Videography</li>
-                                 <li>Live Stream Setups</li>
+                                <li>Social Media Reels/Shorts</li>
+                                <li>Live Stream Setups</li>
                                 <li>Promotional Content</li>
                                 <li>Brand Videos</li>
                                 <li>Professional Audio Coverage</li>

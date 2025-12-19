@@ -8,10 +8,10 @@ export const Hero = () => {
         <div className="relative overflow-clip min-h-screen text-white bg-[linear-gradient(to_bottom,#061426,#0D448C_35%,#2594D9_55%,#49C2F2_85%)]">
             <div className="absolute bg-black w-[3400] h-[1000] rounded-[50%] left-1/2 -translate-x-1/2 bg-[radial-gradient(closest-side,#000_85%,#0D448C)] top-[450px]  border-[1px] border-[#2594D9]/30"/>
 
-            <div className="container relative mx-auto px-4 px-12 pb-24">
+            <div className="container relative mx-auto px-4 pt-5 pb-24">
                 <div className="flex flex-col items-center justify-center text-center z-10">
                    
-                   
+                  
                     <motion.div
                         className="relative mb-8 mt-24"
                         initial={{opacity: 0, scale:0.5}}
@@ -19,7 +19,7 @@ export const Hero = () => {
                         transition={{duration: 1.5}}
                         whileTap={{transition:{duration: 1.5}, scale: 1.2}}
                     >
-                        <div className="absolute inset-0 bg-gradient-to-b from-blue-400/50 to-trasparent rounded-full blur-3xl"></div>
+                        <div className="absolute inset-0 bg-gradient-to-b from-blue-00/50 to-trasparent rounded-full blur-3xl"></div>
                         <Image src={logo} alt="logo" className="w-[300px] relative z-10"></Image>
                     </motion.div>
 
