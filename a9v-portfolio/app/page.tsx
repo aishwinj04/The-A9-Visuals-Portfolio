@@ -1,6 +1,7 @@
 import { About } from "./components/About";
 import { Hero } from "./components/Hero";
 import { LogoAnimation } from "./components/LogoAnimation";
+import { Metrics } from "./components/Metrics";
 import { Portfolio } from "./components/Portfolio";
 
 
@@ -11,6 +12,7 @@ export default function Home() {
     <LogoAnimation/>
     <About/>
     <Portfolio/>
+    <Metrics/>
   
 
     </>

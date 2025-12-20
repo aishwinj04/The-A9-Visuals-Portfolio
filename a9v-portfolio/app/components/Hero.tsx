@@ -46,10 +46,21 @@ export const Hero = () => {
                             </motion.button>
 
                             <motion.button
-                                className="px-6 px-3 border border-blue-200/20 border-[1px] rounded-full font-bold hover:bg-blue-700 transition-colors"
+                                className="px-6 py-3 border border-blue-100/20 border-[1px] rounded-full font-bold hover:bg-blue-700 transition-colors"
                                 whileHover={{scale:1.2}}>
                                 View Work
                             </motion.button>
+
+                            <a href="https://www.instagram.com/thea9visuals/" target="_blank">
+                             <motion.button
+                                    className="px-6 py-3 border border-blue-100/20 hover:bg-[linear-gradient(to_right,#ec0075_15%,#ff6903_55%,#ffd366_85%)] rounded-full font-bold transition-colors"
+                                    whileHover={{scale:1.2}}>
+                                    Instagram
+                                </motion.button>
+                                
+                            </a>
+                           
+                             
                         </div>
 
 

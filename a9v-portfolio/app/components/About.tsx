@@ -4,6 +4,16 @@ import exp1 from "../../public/assets/expertise1.png";
 import exp2 from "../../public/assets/expertise2.png";
 import goals from "../../public/assets/goals.png";
 
+import app1 from "../../public/assets/fcpx.png";
+import app2 from "../../public/assets/dvr.png";
+import app3 from "../../public/assets/lrc.png";
+import app4 from "../../public/assets/pshop.png";
+import app5 from "../../public/assets/ind.png";
+import app6 from "../../public/assets/can.png";
+
+
+
+
 
 
 
@@ -21,8 +31,18 @@ export const About = () => {
                    <br /> <br/> Your vision. Our lens. Infinite possibilities.
                     </p>
 
-                    <div className="rounded-lg p-4 mb-4 border border-white/20">
-                        <h1 className="text-blue-200/50"></h1>
+                    <h3 className="text-2xl font-bold mb-2">Tools</h3>
+                    <div className="grid grid-cols-3 mb-2 gap-5">
+                        <Image src={app1} alt="fcpx" className="w-[100px]"></Image>
+                        <Image src={app2} alt="dvr" className="w-[100px]"></Image>
+                        <Image src={app3} alt="lrc" className="w-[100px]"></Image>
+                        <Image src={app4} alt="ps" className="w-[100px]"></Image>
+                        <Image src={app5} alt="ind" className="w-[100px]"></Image>
+                        <Image src={app6} alt="can" className="w-[100px] rounded-2xl"></Image>
+
+                        
+                        
+                        
                        
                     </div>
                 </div>
@@ -74,7 +94,6 @@ export const About = () => {
                                 <li>Color Correction & Grading</li>
                                 <li>Transitions & Visual Effects</li>
                                 <li>Multi-Format Exports</li>
-                                <li>Fast Turnaround</li>
                             </ul>
                         </div>
 
@@ -96,8 +115,9 @@ export const About = () => {
                                 <li>Social Media Graphics</li>
                                 <li>Posters & Promotional Designs</li>
                                 <li>Marketing and Campaign Visuals</li>
+                                <li>Business Card Designs</li>
+                                <li>Brochure & Pamphlet Designs</li>
                                 <li>Print-Ready Design Assets</li>
-                                <li>Presentation Designs</li>
                             </ul>
                         </div>
 
