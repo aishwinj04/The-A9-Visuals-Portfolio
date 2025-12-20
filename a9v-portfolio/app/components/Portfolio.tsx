@@ -93,7 +93,7 @@ export const Portfolio = () => {
 
                             {selectedProject.id === project.id && (
                                 <div className="flex justify-end py-2">
-                                    <a href={project.projectLink}>
+                                    <a href={project.projectLink} target="_blank">
                                         <motion.button className="px-5 py-2 bg-gradient-to-r from-blue-700 to-blue-400/60 rounded-full font-bold hover:bg-blue-700 cursor-pointer transition-colors"
                                         whileHover={{scale:1.2}}>
                                             

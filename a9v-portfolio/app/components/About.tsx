@@ -25,7 +25,7 @@ export const About = () => {
             <div className="grid md:grid-cols-3 gap-8">
                 <div className="border border-white/20 rounded-lg p-6">
                     <h3 className="text-2xl font-bold mb-2">01. Background</h3>
-                    <p className="text-white/50 mb-6">
+                    <p className="text-white/60 text-mb-6">
                     At The A9 Visuals, we transform moments into stunning visual stories. Whether it’s capturing events, creating promotional content, or crafting cinematic experiences, our passion is bringing ideas to life through high-quality videography and photography.
                     We combine creativity, technical expertise, and a keen eye for detail to ensure every frame tells your story the way it deserves. From concept to final edit, The A9 Visuals is committed to delivering visuals that inspire, engage, and leave a lasting impression.
                    <br /> <br/> Your vision. Our lens. Infinite possibilities.
@@ -49,7 +49,7 @@ export const About = () => {
 
                 <div className="border border-white/20 rounded-lg p-6">
                     <h3 className="text-2xl font-bold mb-2">02. Expertise</h3>
-                    <p className="text-white/50">
+                    <p className="text-white/60">
                     Our expertise lies in crafting high-impact visual experiences through professional videography, photography, web design, and graphic design. 
                     We specialize in cinematic storytelling, precise editing, creative color grading, and clean, modern digital design to ensure every project feels polished, intentional, and on-brand. 
                     With hands-on experience working with high-profile clients across events, promotional campaigns, and creative projects, we transform ideas and raw assets into compelling visuals and digital experiences that captivate, communicate, and elevate your brand’s message.
@@ -72,7 +72,7 @@ export const About = () => {
 
                 <div className="border border-white/20 rounded-lg p-6">
                     <h3 className="text-2xl font-bold mb-2">03. Skills</h3>
-                    <p className="text-white/50 mb-4">At The A9 Visuals, our skill set blends creative vision with technical precision. From advanced video editing and color grading to visual design and post-production workflows, we use industry-standard tools to deliver high-quality results efficiently and consistently. Each skill we bring to the table supports our goal of creating visuals that are polished, engaging, and tailored to your brand’s identity.</p>
+                    <p className="text-white/60 mb-4">At The A9 Visuals, our skill set blends creative vision with technical precision. From advanced video editing and color grading to visual design and post-production workflows, we use industry-standard tools to deliver high-quality results efficiently and consistently. Each skill we bring to the table supports our goal of creating visuals that are polished, engaging, and tailored to your brand’s identity.</p>
                     <div className="grid lg:grid-cols-2 gap-5">
 
                         <div className="border border-white/20 rounded-lg p-3 wrap-break-word">
@@ -153,7 +153,7 @@ export const About = () => {
 
                 
                 <h3 className="text-2xl font-bold mt-4 mb-2">04. Approach</h3>
-                <p className="text-white/50">
+                <p className="text-white/60">
                 Every project starts with a vision. By diving deep into your ideas, we translate them into visuals that engage and inspire.
                     From planning and shooting to post-production, precision and creativity guide every decision.
                 </p>
@@ -169,7 +169,7 @@ export const About = () => {
 
                 <div>
                     <h3 className="text-2xl font-bold mb-6">05. Vision</h3>
-                    <p className="text-white/50">
+                    <p className="text-white/60">
                     Our goal is simple: to create visuals that inspire, engage, and leave a lasting impression. 
                     Every project is approached with creativity, precision, and a focus on storytelling across video, design, and web.
                     </p>

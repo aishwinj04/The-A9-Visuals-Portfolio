@@ -55,7 +55,7 @@ export const Hero = () => {
                              <motion.button
                                     className="px-6 py-3 border border-blue-100/20 hover:bg-[linear-gradient(to_right,#ec0075_15%,#ff6903_55%,#ffd366_85%)] rounded-full font-bold transition-colors"
                                     whileHover={{scale:1.2}}>
-                                    Instagram
+                                    Follow Us
                                 </motion.button>
                                 
                             </a>

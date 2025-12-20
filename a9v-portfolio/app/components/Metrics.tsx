@@ -54,7 +54,7 @@ const metricsArr = [
         id: 6,
         value: "70+",
         label: "Hours of Footage Edited",
-        description: "Cumulatively edited and refined over 100 hours of raw footage across multiple events and creative projects."
+        description: "Cumulatively edited and refined over 70 hours of raw footage across multiple events and creative projects."
 
 
     }
@@ -72,11 +72,11 @@ export const Metrics = () => {
             initial={{opacity:0, y:50}}
             animate={isInView ? {opacity: 1, y: 0} : {opacity: 0, y: 50}}
             transition={{duration: 0.8}}
-            className="container mx-auto py-5 text-white"
+            className="container mx-auto px-4 py-5 text-white"
             
             >
                 <motion.h2 
-                className="text-6xl font-bold mb-12"
+                className="text-6xl font-bold mb-12 "
                 initial={{opacity:0, y:20}}
                 animate={isInView ? {opacity:1, y:0} : {opacity:0, y:20}}
                 transition={{duration: 4}}>
@@ -96,7 +96,7 @@ export const Metrics = () => {
                                 className="text-5xl font-bold text-blue-300 mb-2"
                                 initial={{scale: 0.5}}
                                 animate={isInView ? {scale: 1} : {scale: 0.5}}
-                                transition={{delay: 0.6 + index  *0.5, duration: 0.5}}>
+                                transition={{delay: 0.6 + index  *0.1, duration: 0.5}}>
 
                                     {metric.value}
                             </motion.h3>
@@ -105,7 +105,7 @@ export const Metrics = () => {
                                 className="text-2xl font-semi-bold text-gray-300 mb-2"
                                 initial={{opacity: 0}}
                                 animate={isInView ? {opacity: 1} : {opacity: 0}} 
-                                transition={{delay:0.8 + index * 0.5, duration: 0.5 }}>
+                                transition={{delay:0.8 + index * 0.2, duration: 0.5 }}>
                                     
                                     {metric.label}
                             </motion.p>
@@ -114,7 +114,7 @@ export const Metrics = () => {
                                 className="font-light text-gray-200 mt-4"
                                 initial={{opacity: 0}}
                                 animate={isInView ? {opacity:1} : {opacity:0}}
-                                transition={{delay:1 + index * 0.5, duration: 0.5}}>
+                                transition={{delay:1 + index * 0.2, duration: 0.5}}>
                                     
                                     {metric.description}
                             </motion.p>
