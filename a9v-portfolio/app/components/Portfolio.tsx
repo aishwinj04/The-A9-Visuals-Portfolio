@@ -31,6 +31,15 @@ const projects = [
         projectLink: "https://www.instagram.com/reel/DRlT05akZBb/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
     },
 
+     {
+        id: 5, 
+        year: 2025, 
+        title: "Tamil Fest Promotional Designs", 
+        description: "We served as the official Multimedia Design team for Tamil Fest 2025, Canada’s largest Tamil street festival. Our work included promotional video edits, social media launch content, poster design, and WordPress website updates, ensuring a cohesive and consistent visual identity across all platforms.", 
+        image: project5,
+        projectLink: "https://www.linkedin.com/posts/a9visuals_tamilfest-graphicdesign-photoshop-activity-7373479523574673408-9NVP?utm_source=share&utm_medium=member_desktop&rcm=ACoAADydPQ0Bes5Z1khKA5lhdXHMKxbpAfeoZnU"
+    },
+
     {
         id: 3, 
         year: 2025, 
@@ -49,14 +58,7 @@ const projects = [
         projectLink: "https://www.instagram.com/reel/DQaV5UoD8e7/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
     },
 
-     {
-        id: 5, 
-        year: 2025, 
-        title: "Tamil Fest Promotional Designs", 
-        description: "We served as the official Multimedia Design team for Tamil Fest 2025, Canada’s largest Tamil street festival. Our work included promotional video edits, social media launch content, poster design, and WordPress website updates, ensuring a cohesive and consistent visual identity across all platforms.", 
-        image: project5,
-        projectLink: "https://www.linkedin.com/posts/a9visuals_tamilfest-graphicdesign-photoshop-activity-7373479523574673408-9NVP?utm_source=share&utm_medium=member_desktop&rcm=ACoAADydPQ0Bes5Z1khKA5lhdXHMKxbpAfeoZnU"
-    }
+
   
 
 

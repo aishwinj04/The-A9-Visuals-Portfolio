@@ -51,9 +51,6 @@
 p.hero-p{
     font-family: var(--azeret-mono), monospace;
 }
-h3.hero-slogan{
-   font-family: var(--azeret-mono), monospace;
-}
 
 :root {
   --radius: 0.625rem;

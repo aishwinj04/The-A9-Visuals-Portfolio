@@ -28,10 +28,10 @@ export const About = () => {
                     <p className="text-white/60 text-mb-6">
                     At The A9 Visuals, we transform moments into stunning visual stories. Whether it’s capturing events, creating promotional content, or crafting cinematic experiences, our passion is bringing ideas to life through high-quality videography and photography.
                     We combine creativity, technical expertise, and a keen eye for detail to ensure every frame tells your story the way it deserves. From concept to final edit, The A9 Visuals is committed to delivering visuals that inspire, engage, and leave a lasting impression.
-                   <br /> <br/> Your vision. Our lens. Infinite possibilities.
+
                     </p>
 
-                    <h3 className="text-2xl font-bold mb-2">Tools</h3>
+                    <h3 className="text-xl font-bold mt-12 mb-2">Softwares:</h3>
                     <div className="grid grid-cols-3 mb-2 gap-5">
                         <Image src={app1} alt="fcpx" className="w-[100px]"></Image>
                         <Image src={app2} alt="dvr" className="w-[100px]"></Image>

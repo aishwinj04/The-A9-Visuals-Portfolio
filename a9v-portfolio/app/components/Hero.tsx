@@ -13,14 +13,14 @@ export const Hero = () => {
                    
                   
                     <motion.div
-                        className="relative mb-8 mt-24"
+                        className="relative mb-8 mt-5"
                         initial={{opacity: 0, scale:0.5}}
                         animate={{ opacity: 1, scale: 1}}
                         transition={{duration: 1.5}}
                         whileTap={{transition:{duration: 1.5}, scale: 1.2}}
                     >
-                        <div className="absolute inset-0 bg-gradient-to-b from-blue-00/50 to-trasparent rounded-full blur-3xl"></div>
-                        <Image src={logo} alt="logo" className="w-[300px] relative z-10"></Image>
+                        <div className="absolute inset-0 bg-gradient-to-b from-blue-100/10 to-trasparent rounded-full blur-3xl"></div>
+                        <Image src={logo} alt="logo" className="w-[300px] md:w-[350px] relative mt-10 z-10"></Image>
                     </motion.div>
 
 
@@ -30,10 +30,10 @@ export const Hero = () => {
                         animate={{opacity: 1, y:0}}
                         transition={{duration: 1.5}}
                     >
-                        <motion.h1 className="hero-title text-6xl text-white/90 max-w-none mx-auto leading-snug mb-6" whileHover={{scale: 1.12}}>
-                            Welcome to <br/> <span className="text-blue-300 text-8xl">The A9 Visuals</span>
+                        <motion.h1 className="hero-title text-5xl md:text-7xl text-white/90 max-w-none mx-auto leading-snug mb-6" whileHover={{scale: 1.12}}>
+                            Welcome to <br/> <span className="text-blue-300 text-6xl md:text-8xl">The A9 Visuals</span>
                         </motion.h1>
-                        <p className="hero-p text-xl text-white/80 max-w-none mx-auto font-bold leading-relaxed mb-6">
+                        <p className="hero-p text-lg md:text-2xl text-white/80 max-w-none mx-auto font-bold leading-relaxed mb-6">
                             We are a Toronto-based visual production team specializing in videography and post-production, crafting engaging visuals through storytelling and precise editing. 
                             Our services also include web and graphic design, ensuring a cohesive brand experience.
                         </p>

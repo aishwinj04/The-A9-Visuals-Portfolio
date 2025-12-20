@@ -49,10 +49,10 @@ export const Services = () => {
         
     ]
     return(
-        <section className="text-white py-20">
+        <section className="text-white py-32">
             <div className="container mx-auto px-4 flex flex-col md:flex-row">
-                <div className=" md:w-1/4 mb-12 md:mb-0 mr-20">
-                    <h2 className="text-6xl font-bold">Services</h2>
+                <div className=" md:w-1/4 mb-12 md:mb-20 mr-20">
+                    <h2 className="text-6xl font-bold sticky top-30">Services</h2>
 
                 
                 </div>

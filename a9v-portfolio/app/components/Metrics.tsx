@@ -79,7 +79,7 @@ export const Metrics = () => {
                 className="text-6xl font-bold mb-12 "
                 initial={{opacity:0, y:20}}
                 animate={isInView ? {opacity:1, y:0} : {opacity:0, y:20}}
-                transition={{duration: 4}}>
+                transition={{duration: 0.6}}>
                     Key <span className="text-blue-300">Metrics</span>
                 </motion.h2>
 
