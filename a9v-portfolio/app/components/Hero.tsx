@@ -2,10 +2,11 @@
 import { motion } from "framer-motion";
 import logo from "../../public/assets/logo.png";
 import Image from "next/image";
+import Link from "next/link";
 
 export const Hero = () => {
     return(
-        <div className="relative overflow-clip min-h-screen text-white bg-[linear-gradient(to_bottom,#061426,#0D448C_35%,#2594D9_55%,#49C2F2_85%)]">
+        <div id="hero" className="relative overflow-clip min-h-screen text-white bg-[linear-gradient(to_bottom,#061426,#0D448C_35%,#2594D9_55%,#49C2F2_85%)]">
             <div className="absolute bg-black w-[3400] h-[1000] rounded-[50%] left-1/2 -translate-x-1/2 bg-[radial-gradient(closest-side,#000_85%,#0D448C)] top-[450px]  border-[1px] border-[#2594D9]/30"/>
 
             <div className="container relative mx-auto px-4 pt-5 pb-24">
@@ -13,7 +14,7 @@ export const Hero = () => {
                    
                   
                     <motion.div
-                        className="relative mb-8 mt-5"
+                        className="relative mb-2 mt-5"
                         initial={{opacity: 0, scale:0.5}}
                         animate={{ opacity: 1, scale: 1}}
                         transition={{duration: 1.5}}
@@ -30,7 +31,7 @@ export const Hero = () => {
                         animate={{opacity: 1, y:0}}
                         transition={{duration: 1.5}}
                     >
-                        <motion.h1 className="hero-title text-5xl md:text-7xl text-white/90 max-w-none mx-auto leading-snug mb-6" whileHover={{scale: 1.12}}>
+                        <motion.h1 className="hero-title text-5xl md:text-7xl text-white/90 max-w-none mx-auto leading-snug mb-3" whileHover={{scale: 1.12}}>
                             Welcome to <br/> <span className="text-blue-300 text-6xl md:text-8xl">The A9 Visuals</span>
                         </motion.h1>
                         <p className="hero-p text-lg md:text-2xl text-white/80 max-w-none mx-auto font-bold leading-relaxed mb-6">
@@ -39,17 +40,25 @@ export const Hero = () => {
                         </p>
 
                         <div className="flex gap-8 justify-center">
+                            <Link href="#contact">
                             <motion.button
                                 className="px-6 py-3 bg-gradient-to-r from-blue-700 to-blue-400/60 rounded-full font-bold hover:bg-blue-700 transition-colors"
                                 whileHover={{scale:1.2}}>
                                 Contact Us
                             </motion.button>
 
-                            <motion.button
-                                className="px-6 py-3 border border-blue-100/20 border-[1px] rounded-full font-bold hover:bg-blue-700 transition-colors"
-                                whileHover={{scale:1.2}}>
-                                View Work
-                            </motion.button>
+                            
+                            </Link>
+                            
+                            <Link href="#portfolio">
+                                <motion.button
+                                    className="px-6 py-3 border border-blue-100/20 border-[1px] rounded-full font-bold hover:bg-blue-700 transition-colors"
+                                    whileHover={{scale:1.2}}>
+                                    View Work
+                                </motion.button>
+                            
+                            </Link>
+                           
 
                             <a href="https://www.instagram.com/thea9visuals/" target="_blank">
                              <motion.button

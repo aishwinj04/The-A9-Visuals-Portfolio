@@ -52,6 +52,11 @@ p.hero-p{
     font-family: var(--azeret-mono), monospace;
 }
 
+html{
+  scroll-behavior: smooth
+}
+
+
 :root {
   --radius: 0.625rem;
   --background: oklch(0% 0 0);
@@ -127,5 +132,12 @@ p.hero-p{
   }
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+  html{
+    scroll-behavior: auto;
   }
 }

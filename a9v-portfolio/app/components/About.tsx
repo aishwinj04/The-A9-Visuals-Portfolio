@@ -20,15 +20,16 @@ import app6 from "../../public/assets/can.png";
 
 export const About = () => {
     return(
-        <section id="about" className="text-white p-8">
+        <section id="about" className="text-white py-20 p-8">
             <h2 className="text-6xl font-bold mb-8">About <span className="text-blue-300">Us</span></h2>
             <div className="grid md:grid-cols-3 gap-8">
                 <div className="border border-white/20 rounded-lg p-6">
                     <h3 className="text-2xl font-bold mb-2">01. Background</h3>
                     <p className="text-white/60 text-mb-6">
-                    At The A9 Visuals, we transform moments into stunning visual stories. Whether it’s capturing events, creating promotional content, or crafting cinematic experiences, our passion is bringing ideas to life through high-quality videography and photography.
-                    We combine creativity, technical expertise, and a keen eye for detail to ensure every frame tells your story the way it deserves. From concept to final edit, The A9 Visuals is committed to delivering visuals that inspire, engage, and leave a lasting impression.
-
+                   At The A9 Visuals, we are built on a passion for transforming ideas into compelling visual experiences. 
+                   What began with videography and photography has grown into a multidisciplinary creative studio offering graphic design and web design services to support complete brand storytelling. 
+                   We blend creativity with technical expertise and a strong attention to detail, ensuring every project, whether motion, design, or digital, communicates purpose and impact. From concept development to final delivery, 
+                   The A9 Visuals is committed to crafting visuals that engage audiences, elevate brands, and leave a lasting impression.
                     </p>
 
                     <h3 className="text-xl font-bold mt-12 mb-2">Softwares:</h3>
@@ -83,7 +84,7 @@ export const About = () => {
                                 <li>Live Stream Setups</li>
                                 <li>Promotional Content</li>
                                 <li>Brand Videos</li>
-                                <li>Professional Audio Coverage</li>
+                                <li>Supported Audio Coverage</li>
                             </ul>
                         </div>
 

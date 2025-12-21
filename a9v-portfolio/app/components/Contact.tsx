@@ -5,7 +5,7 @@ import {motion} from "framer-motion";
 
 export const Contact = () => {
     return(
-        <section id="contact" className="py-10 text-whtie max-w-[1200px] mx-auto px-4">
+        <section id="contact" className="py-32 text-whtie max-w-[1200px] mx-auto px-4">
             <motion.div
                 className="grid lg:grid-cols-2 gap-16"
                 initial={{opacity:0, y:20}}
@@ -31,7 +31,7 @@ export const Contact = () => {
 
                             <div className="space-y-2">
                                 <p className="text-lg text-gray-300">Email</p>
-                                <a href="mailto:thea9visuals@gmail.com" className="text-2xl font-semibold hover:text-blue-400">
+                                <a href="mailto:thea9visuals@gmail.com" className="text-2xl font-semibold hover:text-blue-300 transition-all duration-300">
                                     thea9visuals@gmail.com <span className="text-blue-300/60 pl-2">↗</span>
                                 </a>
 
@@ -39,7 +39,7 @@ export const Contact = () => {
 
                             <div className="space-y-2">
                                 <p className="text-lg text-gray-300">Instagram</p>
-                                <a href="https://www.instagram.com/thea9visuals/" target="_blank" className="text-2xl font-semibold hover:text-blue-400">
+                                <a href="https://www.instagram.com/thea9visuals/" target="_blank" className="text-2xl font-semibold hover:text-blue-300  transition-all duration-300">
                                     @thea9visuals <span className="text-blue-300/60 pl-2">↗</span>
                                 </a>
 

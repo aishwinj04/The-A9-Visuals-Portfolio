@@ -35,7 +35,7 @@ const metricsArr = [
         id: 4,
         value: "4+",
         label: "Creative Disciplines",
-        description: "Videography, photography, editing, graphic design, and web — ensuring cohesive visuals across platforms."
+        description: "Videography, photography, editing, graphic design, and web, ensuring cohesive visuals across platforms."
 
        
     },
@@ -96,7 +96,7 @@ export const Metrics = () => {
                                 className="text-5xl font-bold text-blue-300 mb-2"
                                 initial={{scale: 0.5}}
                                 animate={isInView ? {scale: 1} : {scale: 0.5}}
-                                transition={{delay: 0.6 + index  *0.1, duration: 0.5}}>
+                                transition={{delay: 0.3 + index  * 0.1, duration: 0.5}}>
 
                                     {metric.value}
                             </motion.h3>
@@ -105,7 +105,7 @@ export const Metrics = () => {
                                 className="text-2xl font-semi-bold text-gray-300 mb-2"
                                 initial={{opacity: 0}}
                                 animate={isInView ? {opacity: 1} : {opacity: 0}} 
-                                transition={{delay:0.8 + index * 0.2, duration: 0.5 }}>
+                                transition={{delay:0.5 + index * 0.1, duration: 0.5 }}>
                                     
                                     {metric.label}
                             </motion.p>
@@ -114,7 +114,7 @@ export const Metrics = () => {
                                 className="font-light text-gray-200 mt-4"
                                 initial={{opacity: 0}}
                                 animate={isInView ? {opacity:1} : {opacity:0}}
-                                transition={{delay:1 + index * 0.2, duration: 0.5}}>
+                                transition={{delay: 0.5 + index * 0.1, duration: 0.5}}>
                                     
                                     {metric.description}
                             </motion.p>

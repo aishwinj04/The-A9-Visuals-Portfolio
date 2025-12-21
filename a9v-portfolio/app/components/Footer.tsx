@@ -1,6 +1,7 @@
 "use client"
 import {AiFillInstagram} from "react-icons/ai";
 import {FaLinkedin} from "react-icons/fa";
+import Link from "next/link";
 
 import Image from "next/image";
 import logo from "../../public/assets/logo.png";
@@ -21,7 +22,10 @@ export const Footer = () => {
             whileInView={{opacity:1, x:0}}
             transition={{duration: 1.2}}
             viewport={{once:false}}>
-            <Image src={logo} alt="logo" className="w-[300px] mx-auto"></Image>
+            <Link href="#hero">
+             <Image src={logo} alt="logo" className="w-[300px] mx-auto"></Image>
+            </Link>
+           
                 
            
            </motion.div>
