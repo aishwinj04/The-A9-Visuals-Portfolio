@@ -4,17 +4,17 @@
 
 A modern, responsive portfolio website built for A9 Visuals, showcasing creative work with smooth animations, clean UI, and a strong visual identity.
 
-##🚀 Live Preview
+## Live Preview
 https://your-site-url.vercel.app
 
-##🛠️ Tech Stack
+## Tech Stack
 
 Next.js – React framework for performance and routing
 React – Component-based UI
 Tailwind CSS – Utility-first styling
 Framer Motion – Animations and transitions
 
-## ✨ Features
+## Features
 
 Responsive design (mobile-first)
 Animated hero section using Framer Motion
