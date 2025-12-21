@@ -131,7 +131,7 @@ export const About = () => {
 
             </div> 
 
-        <div className="grid grid-cols-2 gap-8 mt-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
             <div className="border border-white/20 rounded-lg p-6">
                 <div className="space-y-4">
                     <div>
