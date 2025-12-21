@@ -1,24 +1,41 @@
+# The A9 Visuals — Portfolio Website
 
+A modern, responsive portfolio website built to showcase **The A9 Visuals** brand, projects, and creative work.  
+Designed with a strong visual identity, smooth animations, and a clean user experience.
 
-# A9 Visuals – Portfolio Website 🎥✨
+---
 
-A modern, responsive portfolio website built for A9 Visuals, showcasing creative work with smooth animations, clean UI, and a strong visual identity.
+## Live Website
+🔗 https://thea9visuals.netlify.app  
+---
 
-## Live Preview
-https://your-site-url.vercel.app
+## Overview
+This website serves as the official online presence for **The A9 Visuals**, highlighting:
+- Brand identity
+- Creative work & services
+- Smooth, modern UI interactions
+- Mobile-first responsive design
+
+The goal was to build a visually engaging site that feels premium, fast, and professional.
+
+---
 
 ## Tech Stack
+- **Next.js (App Router)** – React framework for production-grade applications
+- **TypeScript** – Type-safe development
+- **Tailwind CSS** – Utility-first styling
+- **Framer Motion** – Animations and interactions
+- **Netlify** – Hosting and deployment
 
-Next.js – React framework for performance and routing
-React – Component-based UI
-Tailwind CSS – Utility-first styling
-Framer Motion – Animations and transitions
+---
 
-## Features
+##  Features
+- Fully responsive design (mobile, tablet, desktop)
+- Animated hero section and transitions
+- Interactive navigation with mobile menu
+- Optimized performance and build output
+- Clean, modern UI with gradient-based design elements
 
-Responsive design (mobile-first)
-Animated hero section using Framer Motion
-Fixed & sticky navigation with mobile menu
-Smooth hover and scroll-based animations
-Clean layout with modern gradients and blur effects
-Optimized images for performance
+---
+
+## 📂 Project Structure
