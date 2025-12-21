@@ -32,9 +32,9 @@ export const Hero = () => {
                         transition={{duration: 1.5}}
                     >
                         <motion.h1 className="hero-title text-5xl md:text-7xl text-white/90 max-w-none mx-auto leading-snug mb-3" whileHover={{scale: 1.12}}>
-                            Welcome to <br/> <span className="text-blue-300 text-6xl md:text-8xl">The A9 Visuals</span>
+                            Welcome to <br/> <span className="text-blue-300 font-bold text-5xl md:text-8xl">The A9 Visuals</span>
                         </motion.h1>
-                        <p className="hero-p text-lg md:text-2xl text-white/80 max-w-none mx-auto font-bold leading-relaxed mb-6">
+                        <p className="hero-p text- md:text-2xl text-white/80 max-w-none mx-auto leading-relaxed mb-6">
                             We are a Toronto-based visual production team specializing in videography and post-production, crafting engaging visuals through storytelling and precise editing. 
                             Our services also include web and graphic design, ensuring a cohesive brand experience.
                         </p>
