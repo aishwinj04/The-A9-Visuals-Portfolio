@@ -47,12 +47,12 @@ export const LogoAnimation = () => {
     return(
         <div className="py-6 my-10 bg-blue-400/20">
             <div className="container mx-auto">
-                <div className="overflow-hidden 
-                [mask-image:linear-gradient(to_right,_transparent,_black_10%,_black_75%,_transparent)]">
+                <div className="overflow-hidden
+                [mask-image:linear-gradient(to_right,_transparent,_black_10%,_black_75%,_transparent)] ">
                     
-                    <motion.div className="flex gap-25 flex-none"
+                    <motion.div className="flex gap-20"
                         animate={{translateX: "-50%"}}
-                        transition={{duration: 35, repeat: Infinity, ease: "linear", repeatType: "loop"}}
+                        transition={{duration: 35, ease: "linear", repeat: Infinity ,repeatType: "loop"}}
                        >
                             
                         {imagesArr.map((image, index) => (
