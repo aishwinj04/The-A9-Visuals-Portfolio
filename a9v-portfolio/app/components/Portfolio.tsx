@@ -7,7 +7,8 @@ import project2 from "../../public/assets/proj2.png";
 import project3 from "../../public/assets/proj3.png";
 import project4 from "../../public/assets/proj4.png";
 import project5 from "../../public/assets/proj5.png";
-import project6 from "../../public/assets/proj7.png";
+import project6 from "../../public/assets/proj6.png";
+import project7 from "../../public/assets/proj7.png";
 import {motion} from "framer-motion";
 
 
@@ -64,8 +65,17 @@ const projects = [
         year: 2025, 
         title: "Tamil Canadian Walkathon", 
         description: "The A9 Visuals was hired as the Design and Photography team for the Tamil Canadian Walk 2025, held on July 13, 2025, in support of York University. Our work spanned across graphic design, t-shirt design, event photography, videography, recap videos, and highlight reels, a rewarding opportunity to use creativity and visuals to support an important cause.", 
-        image: project6,
+        image: project7,
         projectLink: "https://www.linkedin.com/posts/a9visuals_tamilcanadian-walkathon-poster-activity-7373503334663643137-ieT4?utm_source=share&utm_medium=member_desktop&rcm=ACoAADydPQ0Bes5Z1khKA5lhdXHMKxbpAfeoZnU"
+    },
+
+     {
+        id: 7, 
+        year: 2025, 
+        title: "Winter Glow - Sankofa Square Reel", 
+        description: "A cinematic winter edit capturing the energy and warmth of Sankofa Square’s Winter Glow. Through dynamic motion, vibrant lighting, and atmospheric details, this piece highlights the contrast between the cold season and the lively spirit of the space, transforming a public square into an immersive visual experience.", 
+        image: project6,
+        projectLink: "https://www.instagram.com/reel/DSOOyccEY2Y/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
     },
 
 
