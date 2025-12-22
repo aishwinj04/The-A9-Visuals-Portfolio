@@ -7,6 +7,7 @@ import project2 from "../../public/assets/proj2.png";
 import project3 from "../../public/assets/proj3.png";
 import project4 from "../../public/assets/proj4.png";
 import project5 from "../../public/assets/proj5.png";
+import project6 from "../../public/assets/proj7.png";
 import {motion} from "framer-motion";
 
 
@@ -56,6 +57,15 @@ const projects = [
         description: "We collaborated with the Toronto Metropolitan University Tamil Students Association to capture and produce a full event recap for their annual Fall Mixer. From on-site filming to post-production, this project focused on highlighting the energy, community, and atmosphere of the night through dynamic visuals and storytelling.", 
         image: project3,
         projectLink: "https://www.instagram.com/reel/DQaV5UoD8e7/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+    },
+
+    {
+        id: 6, 
+        year: 2025, 
+        title: "Tamil Canadian Walkathon", 
+        description: "The A9 Visuals was hired as the Design and Photography team for the Tamil Canadian Walk 2025, held on July 13, 2025, in support of York University. Our work spanned across graphic design, t-shirt design, event photography, videography, recap videos, and highlight reels, a rewarding opportunity to use creativity and visuals to support an important cause.", 
+        image: project6,
+        projectLink: "https://www.linkedin.com/posts/a9visuals_tamilcanadian-walkathon-poster-activity-7373503334663643137-ieT4?utm_source=share&utm_medium=member_desktop&rcm=ACoAADydPQ0Bes5Z1khKA5lhdXHMKxbpAfeoZnU"
     },
 
 
