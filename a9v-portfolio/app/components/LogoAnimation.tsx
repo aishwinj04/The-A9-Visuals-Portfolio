@@ -7,6 +7,7 @@ import tsa from "../../public/assets/tsa.png";
 import ctc from "../../public/assets/ctc.png";
 import usstm from "../../public/assets/usstm.png";
 import fest from "../../public/assets/fest.png";
+import laof from "../../public/assets/laof.png";
 
 // array to hold the images 
 const imagesArr = [
@@ -15,30 +16,35 @@ const imagesArr = [
     {src: ctc, alt: "ctc"},
     {src: usstm, alt: "usstm"},
     {src: fest, alt: "fest"},
+    {src: laof, alt: "legislative"},
 
     {src: tmu, alt: "tmu"},
     {src: tsa, alt: "tsa"},
     {src: ctc, alt: "ctc"},
     {src: usstm, alt: "usstm"},
     {src: fest, alt: "fest"},
+        {src: laof, alt: "legislative"},
 
     {src: tmu, alt: "tmu"},
     {src: tsa, alt: "tsa"},
     {src: ctc, alt: "ctc"},
     {src: usstm, alt: "usstm"},
     {src: fest, alt: "fest"},
+    {src: laof, alt: "legislative"},
 
     {src: tmu, alt: "tmu"},
     {src: tsa, alt: "tsa"},
     {src: ctc, alt: "ctc"},
     {src: usstm, alt: "usstm"},
     {src: fest, alt: "fest"},
+    {src: laof, alt: "legislative"},
 
     {src: tmu, alt: "tmu"},
     {src: tsa, alt: "tsa"},
     {src: ctc, alt: "ctc"},
     {src: usstm, alt: "usstm"},
     {src: fest, alt: "fest"},
+    {src: laof, alt: "legislative"},
 
 
 ]
