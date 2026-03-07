@@ -170,7 +170,7 @@ export const About = () => {
 
                 <div>
                     <h3 className="text-2xl font-bold mb-6">05. Vision</h3>
-                    <p className="text-white/60">
+                    <p className="text-white/70">
                     Our goal is simple: to create visuals that inspire, engage, and leave a lasting impression. 
                     Every project is approached with creativity, precision, and a focus on storytelling across video, design, and web.
                     </p>
