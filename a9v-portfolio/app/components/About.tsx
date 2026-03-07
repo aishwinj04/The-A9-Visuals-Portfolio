@@ -25,7 +25,7 @@ export const About = () => {
             <div className="grid md:grid-cols-3 gap-8">
                 <div className="border border-white/20 rounded-lg p-6">
                     <h3 className="text-2xl font-bold mb-2">01. Background</h3>
-                    <p className="text-white/60 text-mb-6">
+                    <p className="text-white/70 text-mb-6">
                    At The A9 Visuals, we are built on a passion for transforming ideas into compelling visual experiences. 
                    What began with videography and photography has grown into a multidisciplinary creative studio offering graphic design and web design services to support complete brand storytelling. 
                    We blend creativity with technical expertise and a strong attention to detail, ensuring every project, whether motion, design, or digital, communicates purpose and impact. From concept development to final delivery, 
@@ -50,7 +50,7 @@ export const About = () => {
 
                 <div className="border border-white/20 rounded-lg p-6">
                     <h3 className="text-2xl font-bold mb-2">02. Expertise</h3>
-                    <p className="text-white/60">
+                    <p className="text-white/70">
                     Our expertise lies in crafting high-impact visual experiences through professional videography, photography, web design, and graphic design. 
                     We specialize in cinematic storytelling, precise editing, creative color grading, and clean, modern digital design to ensure every project feels polished, intentional, and on-brand. 
                     With hands-on experience working with high-profile clients across events, promotional campaigns, and creative projects, we transform ideas and raw assets into compelling visuals and digital experiences that captivate, communicate, and elevate your brand’s message.
@@ -73,7 +73,7 @@ export const About = () => {
 
                 <div className="border border-white/20 rounded-lg p-6">
                     <h3 className="text-2xl font-bold mb-2">03. Skills</h3>
-                    <p className="text-white/60 mb-4">At The A9 Visuals, our skill set blends creative vision with technical precision. From advanced video editing and color grading to visual design and post-production workflows, we use industry-standard tools to deliver high-quality results efficiently and consistently. Each skill we bring to the table supports our goal of creating visuals that are polished, engaging, and tailored to your brand’s identity.</p>
+                    <p className="text-white/70 mb-4">At The A9 Visuals, our skill set blends creative vision with technical precision. From advanced video editing and color grading to visual design and post-production workflows, we use industry-standard tools to deliver high-quality results efficiently and consistently. Each skill we bring to the table supports our goal of creating visuals that are polished, engaging, and tailored to your brand’s identity.</p>
                     <div className="grid lg:grid-cols-2 gap-5">
 
                         <div className="border border-white/20 rounded-lg p-3 wrap-break-word">
@@ -154,7 +154,7 @@ export const About = () => {
 
                 
                 <h3 className="text-2xl font-bold mt-4 mb-2">04. Approach</h3>
-                <p className="text-white/60">
+                <p className="text-white/70">
                 Every project starts with a vision. By diving deep into your ideas, we translate them into visuals that engage and inspire.
                     From planning and shooting to post-production, precision and creativity guide every decision.
                 </p>
