@@ -156,7 +156,7 @@ export const About = () => {
                 <h3 className="text-2xl font-bold mt-4 mb-2">04. Approach</h3>
                 <p className="text-white/70">
                 Every project starts with a vision. By diving deep into your ideas, we translate them into visuals that engage and inspire.
-                    From planning and shooting to post-production, precision and creativity guide every decision.
+                    From planning and shooting to post-production, precision and creativity guide every decision with 100% hands on production.
                 </p>
 
             </div>
