@@ -9,7 +9,7 @@ import app2 from "../../public/assets/dvr.png";
 import app3 from "../../public/assets/lrc.png";
 import app4 from "../../public/assets/pshop.png";
 import app5 from "../../public/assets/ind.png";
-import app6 from "../../public/assets/can.png";
+import app6 from "../../public/assets/illus.png";
 
 
 
@@ -39,7 +39,7 @@ export const About = () => {
                         <Image src={app3} alt="lrc" className="w-[100px]"></Image>
                         <Image src={app4} alt="ps" className="w-[100px]"></Image>
                         <Image src={app5} alt="ind" className="w-[100px]"></Image>
-                        <Image src={app6} alt="can" className="w-[100px] rounded-2xl"></Image>
+                        <Image src={app6} alt="illustrator" className="w-[100px] rounded-2xl"></Image>
 
                         
                         
