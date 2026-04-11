@@ -52,7 +52,7 @@ const metricsArr = [
     {
        
         id: 6,
-        value: "100+",
+        value: "90+",
         label: "Hours of Footage Edited",
         description: "Cumulatively edited and refined over 70 hours of raw footage across multiple events and creative projects."
 
