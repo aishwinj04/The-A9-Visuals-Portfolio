@@ -6,7 +6,7 @@ import {motion, useInView} from "framer-motion";
 const metricsArr = [
     {
         id: 1,
-        value: "35",
+        value: "40",
         label: "Creative Projects Delivered",
         description: "Delivered a wide range of creative projects across videography, photography, editing, graphic design tailored to client's vision and audience."
 
@@ -15,7 +15,7 @@ const metricsArr = [
 
     {
         id: 2,
-        value: "12+",
+        value: "15+",
         label: "Events Documented",
         description: "Captured a wide range of events, from student-led initiatives to client events, focusing on key moments, atmosphere, and authentic storytelling across diverse environments."
 
@@ -24,7 +24,7 @@ const metricsArr = [
 
     {
         id: 3,
-        value: "30K",
+        value: "45K",
         label: "Social Media Views",
         description: "Generated over 30,000 views across Instagram content within a three-month period, reflecting strong audience engagement and visual reach."
         
@@ -52,7 +52,7 @@ const metricsArr = [
     {
        
         id: 6,
-        value: "80+",
+        value: "100+",
         label: "Hours of Footage Edited",
         description: "Cumulatively edited and refined over 70 hours of raw footage across multiple events and creative projects."
 
