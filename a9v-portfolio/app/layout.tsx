@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import {Azeret_Mono, DM_Serif_Display} from "next/font/google"
 
-import "./globals.css";
 
 const dmDisplay = DM_Serif_Display({
   subsets:["latin"],
