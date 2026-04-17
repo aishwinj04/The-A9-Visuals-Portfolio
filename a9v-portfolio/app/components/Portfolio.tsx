@@ -11,13 +11,24 @@ import project6 from "../../public/assets/proj6.png";
 import project7 from "../../public/assets/proj7.png";
 import project8 from "../../public/assets/proj8.png"
 import project9 from "../../public/assets/proj9.png"
+import project10 from "../../public/assets/proj10.png"
 import {motion} from "framer-motion";
 
 
 const projects = [
 
-    {
+     {
         id: 1, 
+        year: 2026, 
+        title: "Build with AI 2026 - GDGxUTSC", 
+        description: "Collaborated with the UTSC Capture Team to deliver full event coverage and produce the official recap video for Google Developer Groups Build with AI 2026 event.", 
+        image: project10,
+        projectLink: "https://www.instagram.com/p/DXIJ4IGEQMB/"
+    },
+
+
+    {
+        id: 2, 
         year: 2026, 
         title: "TEDxUTSC: Dreams 2026 Recap", 
         description: "Collaborated with the UTSC Capture Team to deliver full event coverage and produce the official recap for @tedxuoftscarborough Dreams 2026 event.", 
@@ -27,7 +38,7 @@ const projects = [
 
 
      {
-        id: 2, 
+        id: 3, 
         year: 2026, 
         title: "Lunar New Year Event with MPP Logan Kanapathi", 
         description: "On February 21st, our team had the honour of providing full photo and video coverage for the Lunar New Year celebration hosted by the Legislative Assembly of Ontario alongside MPP Logan Kanapathi. This four-hour production marked our first client project of the year—grateful to our team and collaborators who made it possible.", 
@@ -37,7 +48,7 @@ const projects = [
     },
 
     {
-        id: 3, 
+        id: 4, 
         year: 2025, 
         title: "Toronto Tamil Book Fair", 
         description: "Live-stream and photography coverage for the Toronto Tamil Book Fair 2025, delivering real-time event access and high-quality visual documentation that captured the energy and cultural significance of the fair.", 
@@ -47,7 +58,7 @@ const projects = [
     },
 
        {
-        id: 4, 
+        id: 5, 
         year: 2025, 
         title: "USSTM Holiday Fest", 
         description: "We captured the energy and festive spirit of Toronto Metropolitan University's annual Holiday Fest. From student club activities to giveaways and cozy winter vibes, this project highlights the day through dynamic videography and storytelling, bringing the campus celebration to life.", 
@@ -56,7 +67,7 @@ const projects = [
     },
 
      {
-        id: 5, 
+        id: 6, 
         year: 2025, 
         title: "Tamil Fest Promotional Designs", 
         description: "We served as the official Multimedia Design team for Tamil Fest 2025, Canada’s largest Tamil street festival. Our work included promotional video edits, social media launch content, poster design, and WordPress website updates, ensuring a cohesive and consistent visual identity across all platforms.", 
@@ -64,14 +75,6 @@ const projects = [
         projectLink: "https://www.linkedin.com/posts/a9visuals_tamilfest-graphicdesign-photoshop-activity-7373479523574673408-9NVP?utm_source=share&utm_medium=member_desktop&rcm=ACoAADydPQ0Bes5Z1khKA5lhdXHMKxbpAfeoZnU"
     },
 
-    {
-        id: 6, 
-        year: 2025, 
-        title: "TMU TSA Maaveerar Naal", 
-        description: "Event photography coverage for Maaveerar Naal hosted by the TMU Tamil Students’ Association, documenting key moments and the atmosphere of remembrance through respectful visuals.", 
-        image: project2,
-        projectLink: "https://www.linkedin.com/feed/update/urn:li:activity:7397631133603094528"
-    },
 
     {
         id: 7, 
