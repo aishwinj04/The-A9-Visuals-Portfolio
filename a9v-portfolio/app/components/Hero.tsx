@@ -21,7 +21,7 @@ export const Hero = () => {
                         whileTap={{transition:{duration: 1.5}, scale: 1.2}}
                     >
                         <div className="absolute inset-0 bg-gradient-to-b from-blue-100/10 to-trasparent rounded-full blur-3xl"></div>
-                        <Image src={logo} alt="logo" className="w-[300px] md:w-[350px] relative mt-10 z-10"></Image>
+                        <Image src={logo} alt="logo" className="w-[400px] md:w-[450px] relative mt-10 z-10"></Image>
                     </motion.div>
 
 
