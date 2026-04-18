@@ -12,6 +12,7 @@ import project7 from "../../public/assets/proj7.png";
 import project8 from "../../public/assets/proj8.png"
 import project9 from "../../public/assets/proj9.png"
 import project10 from "../../public/assets/proj10.png"
+import project11 from "../../public/assets/proj11.png"
 import {motion} from "framer-motion";
 
 
@@ -26,9 +27,17 @@ const projects = [
         projectLink: "https://www.instagram.com/p/DXIJ4IGEQMB/"
     },
 
-
     {
         id: 2, 
+        year: 2026, 
+        title: "TMUTSA - Beyond Degrees: Graduate Insights & Networking Event", 
+        description: "Provided full media coverage for TMU TSA’s Graduate Insights & Networking Event, in collaboration with CTPA, hearing directly from graduates about their journeys beyond university.", 
+        image: project11,
+        projectLink: "https://www.instagram.com/p/DWrVrAhATZu/"
+    },
+
+    {
+        id: 3, 
         year: 2026, 
         title: "TEDxUTSC: Dreams 2026 Recap", 
         description: "Collaborated with the UTSC Capture Team to deliver full event coverage and produce the official recap for @tedxuoftscarborough Dreams 2026 event.", 
@@ -38,7 +47,7 @@ const projects = [
 
 
      {
-        id: 3, 
+        id: 4, 
         year: 2026, 
         title: "Lunar New Year Event with MPP Logan Kanapathi", 
         description: "On February 21st, our team had the honour of providing full photo and video coverage for the Lunar New Year celebration hosted by the Legislative Assembly of Ontario alongside MPP Logan Kanapathi. This four-hour production marked our first client project of the year—grateful to our team and collaborators who made it possible.", 
@@ -48,7 +57,7 @@ const projects = [
     },
 
     {
-        id: 4, 
+        id: 5, 
         year: 2025, 
         title: "Toronto Tamil Book Fair", 
         description: "Live-stream and photography coverage for the Toronto Tamil Book Fair 2025, delivering real-time event access and high-quality visual documentation that captured the energy and cultural significance of the fair.", 
@@ -58,7 +67,7 @@ const projects = [
     },
 
        {
-        id: 5, 
+        id: 6, 
         year: 2025, 
         title: "USSTM Holiday Fest", 
         description: "We captured the energy and festive spirit of Toronto Metropolitan University's annual Holiday Fest. From student club activities to giveaways and cozy winter vibes, this project highlights the day through dynamic videography and storytelling, bringing the campus celebration to life.", 
@@ -67,7 +76,7 @@ const projects = [
     },
 
      {
-        id: 6, 
+        id: 7, 
         year: 2025, 
         title: "Tamil Fest Promotional Designs", 
         description: "We served as the official Multimedia Design team for Tamil Fest 2025, Canada’s largest Tamil street festival. Our work included promotional video edits, social media launch content, poster design, and WordPress website updates, ensuring a cohesive and consistent visual identity across all platforms.", 
@@ -75,15 +84,6 @@ const projects = [
         projectLink: "https://www.linkedin.com/posts/a9visuals_tamilfest-graphicdesign-photoshop-activity-7373479523574673408-9NVP?utm_source=share&utm_medium=member_desktop&rcm=ACoAADydPQ0Bes5Z1khKA5lhdXHMKxbpAfeoZnU"
     },
 
-
-    {
-        id: 7, 
-        year: 2025, 
-        title: "TMU TSA Vaanganna Vanakkanganna", 
-        description: "We collaborated with the Toronto Metropolitan University Tamil Students Association to capture and produce a full event recap for their annual Fall Mixer. From on-site filming to post-production, this project focused on highlighting the energy, community, and atmosphere of the night through dynamic visuals and storytelling.", 
-        image: project3,
-        projectLink: "https://www.instagram.com/reel/DQaV5UoD8e7/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
-    },
 
     {
         id: 8, 
@@ -134,7 +134,7 @@ export const Portfolio = () => {
                                         <motion.button className="px-5 py-2 bg-gradient-to-r from-blue-700 to-blue-400/60 rounded-full font-bold hover:bg-blue-700 cursor-pointer transition-colors"
                                         whileHover={{scale:1.2}}>
                                             
-                                            {(selectedProject.id === 2 || selectedProject.id === 4) ? "View Video" : "View More"}
+                                            {(selectedProject.id === 1 ||selectedProject.id === 2 || selectedProject.id === 3 || selectedProject.id === 6) ? "View Video" : "View More"}
                                         </motion.button> 
                                     </a>
                                     
