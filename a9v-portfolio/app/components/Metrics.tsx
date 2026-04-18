@@ -26,7 +26,7 @@ const metricsArr = [
         id: 3,
         value: "45K",
         label: "Social Media Views",
-        description: "Generated over 30,000 views across Instagram content within a three-month period, reflecting strong audience engagement and visual reach."
+        description: "Generated over 45,000 views across Instagram content within a three-month period, reflecting strong audience engagement and visual reach."
         
 
     },
@@ -54,7 +54,7 @@ const metricsArr = [
         id: 6,
         value: "90+",
         label: "Hours of Footage Edited",
-        description: "Cumulatively edited and refined over 70 hours of raw footage across multiple events and creative projects."
+        description: "Cumulatively edited and refined over 90 hours of raw footage across multiple events and creative projects."
 
 
     }
