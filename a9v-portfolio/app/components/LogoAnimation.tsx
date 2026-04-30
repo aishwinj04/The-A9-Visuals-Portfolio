@@ -8,6 +8,8 @@ import ctc from "../../public/assets/ctc.png";
 import usstm from "../../public/assets/usstm.png";
 import fest from "../../public/assets/fest.png";
 import laof from "../../public/assets/laof.png";
+import tedx from "../../public/assets/tedxlogo.png";
+import gdg from "../../public/assets/gdglogo.png";
 
 // array to hold the images 
 const imagesArr = [
@@ -17,20 +19,8 @@ const imagesArr = [
     {src: usstm, alt: "usstm"},
     {src: fest, alt: "fest"},
     {src: laof, alt: "legislative"},
-
-    {src: tmu, alt: "tmu"},
-    {src: tsa, alt: "tsa"},
-    {src: ctc, alt: "ctc"},
-    {src: usstm, alt: "usstm"},
-    {src: fest, alt: "fest"},
-        {src: laof, alt: "legislative"},
-
-    {src: tmu, alt: "tmu"},
-    {src: tsa, alt: "tsa"},
-    {src: ctc, alt: "ctc"},
-    {src: usstm, alt: "usstm"},
-    {src: fest, alt: "fest"},
-    {src: laof, alt: "legislative"},
+    {src: tedx, alt: "tedx"},
+    {src: gdg, alt: "google"},
 
     {src: tmu, alt: "tmu"},
     {src: tsa, alt: "tsa"},
@@ -38,6 +28,8 @@ const imagesArr = [
     {src: usstm, alt: "usstm"},
     {src: fest, alt: "fest"},
     {src: laof, alt: "legislative"},
+    {src: tedx, alt: "tedx"},
+    {src: gdg, alt: "google"},
 
     {src: tmu, alt: "tmu"},
     {src: tsa, alt: "tsa"},
@@ -45,6 +37,35 @@ const imagesArr = [
     {src: usstm, alt: "usstm"},
     {src: fest, alt: "fest"},
     {src: laof, alt: "legislative"},
+    {src: tedx, alt: "tedx"},
+    {src: gdg, alt: "google"},
+
+    {src: tmu, alt: "tmu"},
+    {src: tsa, alt: "tsa"},
+    {src: ctc, alt: "ctc"},
+    {src: usstm, alt: "usstm"},
+    {src: fest, alt: "fest"},
+    {src: laof, alt: "legislative"},
+    {src: tedx, alt: "tedx"},
+    {src: gdg, alt: "google"},
+
+    {src: tmu, alt: "tmu"},
+    {src: tsa, alt: "tsa"},
+    {src: ctc, alt: "ctc"},
+    {src: usstm, alt: "usstm"},
+    {src: fest, alt: "fest"},
+    {src: laof, alt: "legislative"},
+    {src: tedx, alt: "tedx"},
+    {src: gdg, alt: "google"},
+
+    {src: tmu, alt: "tmu"},
+    {src: tsa, alt: "tsa"},
+    {src: ctc, alt: "ctc"},
+    {src: usstm, alt: "usstm"},
+    {src: fest, alt: "fest"},
+    {src: laof, alt: "legislative"},
+    {src: tedx, alt: "tedx"},
+    {src: gdg, alt: "google"},
 
 
 ]
