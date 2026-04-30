@@ -38,7 +38,7 @@ export const Hero = () => {
                             We are a Toronto-based visual production team specializing in videography and post-production, crafting engaging visuals through storytelling and precise editing. 
                             Our services also include web and graphic design, ensuring a cohesive brand experience. <br/>
 
-                            Owned & Operated by <a href="https://www.linkedin.com/in/aishwinj/">Aishwin Jeevothayan</a>
+                            Owned & Operated by <a href="https://www.linkedin.com/in/aishwinj/" className="font-bold underline hover:bg-blue-700 transition-colors">Aishwin Jeevothayan</a>
                         </p>
 
                         <div className="flex gap-8 justify-center">
