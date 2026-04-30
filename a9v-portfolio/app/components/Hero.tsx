@@ -36,7 +36,9 @@ export const Hero = () => {
                         </motion.h1>
                         <p className="hero-p text- md:text-2xl text-white/80 max-w-none mx-auto leading-relaxed mb-6">
                             We are a Toronto-based visual production team specializing in videography and post-production, crafting engaging visuals through storytelling and precise editing. 
-                            Our services also include web and graphic design, ensuring a cohesive brand experience.
+                            Our services also include web and graphic design, ensuring a cohesive brand experience. <br/>
+
+                            Owned & Operated by <a href="https://www.linkedin.com/in/aishwinj/">Aishwin Jeevothayan</a>
                         </p>
 
                         <div className="flex gap-8 justify-center">
