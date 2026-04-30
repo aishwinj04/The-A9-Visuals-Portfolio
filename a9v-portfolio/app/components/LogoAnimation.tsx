@@ -72,7 +72,7 @@ const imagesArr = [
 
 export const LogoAnimation = () => {
     return(
-        <div className="py-10 my-15 bg-blue-400/20">
+        <div className="py-6 my-10 bg-blue-400/20">
             <div className="container mx-auto">
                 <div className="overflow-hidden
                 [mask-image:linear-gradient(to_right,_transparent,_black_10%,_black_75%,_transparent)] ">
@@ -83,12 +83,7 @@ export const LogoAnimation = () => {
                        >
                             
                         {imagesArr.map((image, index) => (
-                            <Image key={index} src={image.src} alt={image.alt} 
-                          className={`hover:scale-105 ${
-                            image.alt === "tedx" || image.alt === "google"
-                                ? "h-[35px]"
-                                : "h-[70px]"
-                            }`}>
+                            <Image key={index} src={image.src} alt={image.alt} className="h-[55px] hover:scale-105">
 
                             </Image>
 
