@@ -83,7 +83,12 @@ export const LogoAnimation = () => {
                        >
                             
                         {imagesArr.map((image, index) => (
-                            <Image key={index} src={image.src} alt={image.alt} className="h-[55px] hover:scale-105">
+                            <Image key={index} src={image.src} alt={image.alt} 
+                          className={`hover:scale-105 ${
+                            image.alt === "tedx" || image.alt === "google"
+                                ? "h-[35px]"
+                                : "h-[70px]"
+                            }`}>
 
                             </Image>
 
