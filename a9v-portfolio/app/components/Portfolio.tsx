@@ -14,6 +14,7 @@ import project9 from "../../public/assets/proj9.png"
 import project10 from "../../public/assets/proj10.png"
 import project11 from "../../public/assets/proj11.png"
 import project12 from "../../public/assets/proj12.png"
+import project13 from "../../public/assets/proj13.png"
 import {motion} from "framer-motion";
 
 
@@ -31,6 +32,15 @@ const projects = [
     {
         id: 2, 
         year: 2026, 
+        title: "MPP Logan Kanapathi's Community BBQ Event", 
+        description: "Delivered a recap video for the MPP's team, featured on their Facebook and LinkedIn pages.", 
+        image: project13,
+        projectLink: "https://www.instagram.com/p/DaQ5zbGRDFX/"
+    },
+
+    {
+        id: 3, 
+        year: 2026, 
         title: "TMUTSA - Beyond Degrees: Graduate Insights & Networking Event", 
         description: "Provided full media coverage for TMU TSA’s Graduate Insights & Networking Event, in collaboration with CTPA, hearing directly from graduates about their journeys beyond university.", 
         image: project11,
@@ -38,7 +48,7 @@ const projects = [
     },
 
     {
-        id: 3, 
+        id: 4, 
         year: 2026, 
         title: "TEDxUTSC: Dreams 2026 Recap", 
         description: "Collaborated with the UTSC Capture Team to deliver full event coverage and produce the official recap for @tedxuoftscarborough Dreams 2026 event.", 
@@ -48,7 +58,7 @@ const projects = [
 
 
     {
-        id: 4, 
+        id: 5, 
         year: 2026, 
         title: "Web and Graphic Design: Toronto Metropolitan University", 
         description: "Contract work done for Health Promotions Program for campus wide initiatives and website refresh.", 
@@ -58,7 +68,7 @@ const projects = [
 
 
      {
-        id: 5, 
+        id: 6, 
         year: 2026, 
         title: "Lunar New Year Event with MPP Logan Kanapathi", 
         description: "On February 21st, our team had the honour of providing full photo and video coverage for the Lunar New Year celebration hosted by the Legislative Assembly of Ontario alongside MPP Logan Kanapathi. This four-hour production marked our first client project of the year—grateful to our team and collaborators who made it possible.", 
@@ -68,7 +78,7 @@ const projects = [
     },
 
     {
-        id: 6, 
+        id: 7, 
         year: 2025, 
         title: "Toronto Tamil Book Fair", 
         description: "Live-stream and photography coverage for the Toronto Tamil Book Fair 2025, delivering real-time event access and high-quality visual documentation that captured the energy and cultural significance of the fair.", 
@@ -78,7 +88,7 @@ const projects = [
     },
 
        {
-        id: 7, 
+        id: 8, 
         year: 2025, 
         title: "USSTM Holiday Fest", 
         description: "We captured the energy and festive spirit of Toronto Metropolitan University's annual Holiday Fest. From student club activities to giveaways and cozy winter vibes, this project highlights the day through dynamic videography and storytelling, bringing the campus celebration to life.", 
@@ -87,7 +97,7 @@ const projects = [
     },
 
      {
-        id: 8, 
+        id: 9, 
         year: 2025, 
         title: "Tamil Fest Promotional Designs", 
         description: "We served as the official Multimedia Design team for Tamil Fest 2025, Canada’s largest Tamil street festival. Our work included promotional video edits, social media launch content, poster design, and WordPress website updates, ensuring a cohesive and consistent visual identity across all platforms.", 
@@ -97,7 +107,7 @@ const projects = [
 
 
     {
-        id: 9, 
+        id: 10, 
         year: 2025, 
         title: "Tamil Canadian Walkathon", 
         description: "The A9 Visuals was hired as the Design and Photography team for the Tamil Canadian Walk 2025, held on July 13, 2025, in support of York University. Our work spanned across graphic design, t-shirt design, event photography, videography, recap videos, and highlight reels, a rewarding opportunity to use creativity and visuals to support an important cause.", 
@@ -145,7 +155,7 @@ export const Portfolio = () => {
                                         <motion.button className="px-5 py-2 bg-gradient-to-r from-blue-700 to-blue-400/60 rounded-full font-bold hover:bg-blue-700 cursor-pointer transition-colors"
                                         whileHover={{scale:1.2}}>
                                             
-                                            {(selectedProject.id === 1 ||selectedProject.id === 2 || selectedProject.id === 3 || selectedProject.id === 7) ? "View Video" : "View More"}
+                                            {(selectedProject.id === 1 ||selectedProject.id === 2 || selectedProject.id === 3 || selectedProject.id === 4) ? "View Video" : "View More"}
                                         </motion.button> 
                                     </a>
                                     
