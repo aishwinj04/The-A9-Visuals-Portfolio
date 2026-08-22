@@ -14,7 +14,7 @@ import project9 from "../../public/assets/proj9.png"
 import project10 from "../../public/assets/proj10.png"
 import project11 from "../../public/assets/proj11.png"
 import project12 from "../../public/assets/proj12.png"
-import project13 from "../../public/assets/proj13.png"
+import project14 from "../../public/assets/proj14.png"
 import {motion} from "framer-motion";
 
 
@@ -23,19 +23,20 @@ const projects = [
      {
         id: 1, 
         year: 2026, 
-        title: "Build with AI 2026 - GDGxUTSC", 
-        description: "Collaborated with the UTSC Capture Team to deliver full event coverage and produce the official recap video for Google Developer Groups Build with AI 2026 event.", 
-        image: project10,
-        projectLink: "https://www.instagram.com/p/DXIJ4IGEQMB/"
+        title: "Prabhu Deva at Ontario Legislative Assembly", 
+        description: "Delivered video coverage and social media work for MPP Logan Kanapathi during celebrity guest, Prabhu Deva's visit to Queen's Park.", 
+        image: project14,
+        projectLink: "https://www.instagram.com/reel/DcSM7sUCBJg/"
     },
 
     {
         id: 2, 
         year: 2026, 
-        title: "MPP Logan Kanapathi's Community BBQ Event", 
-        description: "Delivered a recap video for the MPP's team, featured on their Facebook and LinkedIn pages.", 
-        image: project13,
-        projectLink: "https://www.instagram.com/p/DaQ5zbGRDFX/"
+        title: "Build with AI 2026 - GDGxUTSC", 
+        description: "Collaborated with the UTSC Capture Team to deliver full event coverage and produce the official recap video for Google Developer Groups Build with AI 2026 event.", 
+        image: project10,
+        projectLink: "https://www.instagram.com/p/DXIJ4IGEQMB/"
+        
     },
 
     {
@@ -135,9 +136,18 @@ export const Portfolio = () => {
                             className="cursor-pointer mb-8 group" >
                         
                             <p className="text-blue-400 text-lg mb-2">{project.year}</p>
-                            <motion.h3 className={`text-3xl font-semibold group-hover:text-blue-400 transition-colors
-                                ${selectedProject.id === project.id ? 'text-blue-500' : ''} duration-300`
-                                } whileHover={{scale:1.01}}>{project.title}</motion.h3> {/* selection to change textcolor */}
+                            <motion.h3
+                            className={`text-3xl font-semibold transition-colors duration-300
+                                ${project.id === 2
+                                    ? 'text-yellow-500 group-hover:text-yellow-400'
+                                    : `group-hover:text-blue-400 ${selectedProject.id === project.id ? 'text-blue-500' : ''}`
+                                }`
+                            }
+                            whileHover={{ scale: 1.01 }}
+                        >
+                            {project.title}
+                        </motion.h3> {/* selection to change textcolor */}
+
 
                             {selectedProject.id === project.id && (
                                 <div className="border-b-2 border-blue-200 my-4"></div> // shows white border under selected div 
