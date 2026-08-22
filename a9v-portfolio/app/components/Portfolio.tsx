@@ -138,7 +138,7 @@ export const Portfolio = () => {
                             <p className="text-blue-400 text-lg mb-2">{project.year}</p>
                             <motion.h3
                             className={`text-3xl font-semibold transition-colors duration-300
-                                ${project.id === 2
+                                ${project.id === 1
                                     ? 'text-yellow-500 group-hover:text-yellow-400'
                                     : `group-hover:text-blue-400 ${selectedProject.id === project.id ? 'text-blue-500' : ''}`
                                 }`
