@@ -24,7 +24,7 @@ const projects = [
     {
         id: 1, 
         year: 2026, 
-        title: "Prabhu Deva at Ontario Legislative Assembly", 
+        title: "VIP EVENT: Prabhu Deva at Ontario Legislative Assembly", 
         description: "Delivered video coverage and social media work for MPP Logan Kanapathi during celebrity guest, Prabhu Deva's visit to Queen's Park.", 
         image: project14,
         projectLink: "https://www.instagram.com/reel/DcSM7sUCBJg/" // view video
