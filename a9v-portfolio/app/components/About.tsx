@@ -26,13 +26,13 @@ export const About = () => {
                 <div className="border border-white/20 rounded-lg p-6">
                     <h3 className="text-2xl font-bold mb-2">01. Background</h3>
                     <p className="text-white/70 text-mb-6">
-                   At The A9 Visuals, we are built on a passion for transforming ideas into compelling visual experiences. 
-                   What began with videography and photography has grown into a multidisciplinary creative studio offering graphic design and web design services to support complete brand storytelling. 
-                   We blend creativity with technical expertise and a strong attention to detail, ensuring every project, whether motion, design, or digital, communicates purpose and impact. From concept development to final delivery, 
-                   We are committed to crafting visuals that engage audiences, elevate brands, and leave a lasting impression.
+                   At A9 Visuals, we are built on a passion for turning ideas into compelling motion stories. 
+                   What began as a dedicated videography practice has grown into a full-service video production studio, offering everything from concept development to cinematography, editing, and color grading to support complete brand storytelling.
+                   We blend creativity with technical expertise and a strong attention to detail, ensuring every project, whether a brand film, commercial, or documentary piece, communicates purpose and impact. 
+                   From first pitch to final cut, we are committed to crafting videos that engage audiences, elevate brands, and leave a lasting impression.
                     </p>
 
-                    <h3 className="text-xl font-bold mt-12 mb-2">Softwares:</h3>
+                    <h3 className="text-xl font-bold mt-12 mb-2">Experience with:</h3>
                     <div className="grid grid-cols-3 mb-2 gap-5">
                         <Image src={app1} alt="fcpx" className="w-[100px]"></Image>
                         <Image src={app2} alt="dvr" className="w-[100px]"></Image>
@@ -51,9 +51,8 @@ export const About = () => {
                 <div className="border border-white/20 rounded-lg p-6">
                     <h3 className="text-2xl font-bold mb-2">02. Expertise</h3>
                     <p className="text-white/70">
-                    Our expertise lies in crafting high-impact visual experiences through professional videography, photography, web design, and graphic design. 
-                    We specialize in cinematic storytelling, precise editing, creative color grading, and clean, modern digital design to ensure every project feels polished, intentional, and on-brand. 
-                    With hands-on experience working with high-profile clients across events, promotional campaigns, and creative projects, we transform ideas and raw assets into compelling visuals and digital experiences that captivate, communicate, and elevate your brand’s message.
+                    Our expertise lies in crafting high-impact visual stories through professional videography. We specialize in cinematic filming, precise editing, and creative color grading to ensure every project feels polished and intentional. 
+                    With hands-on experience across events, promotional campaigns, and creative projects, we transform raw footage into compelling videos that captivate, communicate, and bring each client's vision to life.
                     
                     </p>
                     <div className="mt-4 relative border border-white/20 rounded-lg p-4 h-[200px] overflow-hidden">
@@ -80,8 +79,8 @@ export const About = () => {
                             <h4 className="text-blue-300 text-lg font-medium mb-2">Videography</h4>
                             <ul className="text-white/50 space-y-1 text-sm">
                                 <li>Event Videography</li>
-                                <li>Social Media Reels/Shorts</li>
-                                <li>Live Stream Setups</li>
+                                <li>Birthdays</li>
+                                <li>Gender Reveals</li>
                                 <li>Promotional Content</li>
                                 <li>Brand Videos</li>
                                 <li>Supported Audio Coverage</li>
@@ -136,11 +135,11 @@ export const About = () => {
                 <div className="space-y-4">
                     <div>
                         <label htmlFor="videography">Videography</label>
-                        <Progress value={95} className="bg-blue-300/20 [&>div]:bg-blue-300/80"></Progress>
+                        <Progress value={10} className="bg-blue-300/20 [&>div]:bg-blue-300/80"></Progress>
                     </div>
                     <div>
                         <label htmlFor="editing">Editing</label>
-                        <Progress value={90} className="bg-blue-300/20 [&>div]:bg-blue-300/80"></Progress>
+                        <Progress value={100} className="bg-blue-300/20 [&>div]:bg-blue-300/80"></Progress>
                     </div>
                     <div>
                         <label htmlFor="editing">Web Design</label>
@@ -148,7 +147,7 @@ export const About = () => {
                     </div>
                     <div>
                         <label htmlFor="editing">Graphic Design</label>
-                        <Progress value={75} className="bg-blue-300/20 [&>div]:bg-blue-300/80"></Progress>
+                        <Progress value={80} className="bg-blue-300/20 [&>div]:bg-blue-300/80"></Progress>
                     </div>
                 </div>
 
