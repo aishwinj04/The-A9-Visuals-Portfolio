@@ -135,7 +135,7 @@ export const About = () => {
                 <div className="space-y-4">
                     <div>
                         <label htmlFor="videography">Videography</label>
-                        <Progress value={10} className="bg-blue-300/20 [&>div]:bg-blue-300/80"></Progress>
+                        <Progress value={100} className="bg-blue-300/20 [&>div]:bg-blue-300/80"></Progress>
                     </div>
                     <div>
                         <label htmlFor="editing">Editing</label>
