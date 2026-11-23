@@ -138,7 +138,7 @@ const projects = [
 export const Portfolio = () => {
     const [selectedProject, setSelectedProject] = useState(projects[0])
     return (
-        <section id="portfolio" className="py-32 text-white">
+        <section id="portfolio" className="py-12 text-white">
             <div className="mx-auto px-4 max-w-7xl grid lg:grid-cols-2 gap-12"> 
                 <div>
                     <h2 className="text-6xl font-bold mb-10">Featured <span className="text-blue-300">Projects</span></h2>
@@ -157,7 +157,11 @@ export const Portfolio = () => {
                                 }`
                             }
                             whileHover={{ scale: 1.01 }}
+
+                            
                         >
+
+                            
                             {project.title}
                         </motion.h3> {/* selection to change textcolor */}
 
@@ -175,12 +179,22 @@ export const Portfolio = () => {
                             {selectedProject.id === project.id && (
                                 <div className="flex justify-end py-2">
                                     <a href={project.projectLink} target="_blank">
-                                        <motion.button className="px-5 py-2 bg-gradient-to-r from-blue-700 to-blue-400/60 rounded-full font-bold hover:bg-blue-700 cursor-pointer transition-colors"
+                                        <motion.button className="px-5 py-2 mb-5  bg-gradient-to-r from-blue-700 to-blue-400/60 rounded-full font-bold hover:bg-blue-700 cursor-pointer transition-colors"
                                         whileHover={{scale:1.2}}>
                                             
                                             {(selectedProject.id === 1 ||selectedProject.id === 2 || selectedProject.id === 3 || selectedProject.id === 4 || selectedProject.id === 5 || selectedProject.id === 9) ? "View Video" : "View More"}
                                         </motion.button> 
+
+                                         <Image 
+                    src={selectedProject.image.src}
+                    alt={selectedProject.title} 
+                    width={1000}
+                    height={1000}
+                    className="rounded-xl shadow-xl my-auto">
+                </Image>
                                     </a>
+                                    
+
                                     
                                 </div>
                                
@@ -199,14 +213,7 @@ export const Portfolio = () => {
                 </div>
                 
 
-                <Image 
-                    src={selectedProject.image.src}
-                    alt={selectedProject.title} 
-                    width={800}
-                    height={400}
-                    className="rounded-xl shadow-xl my-auto">
-                </Image>
-
+               
                 
 
              </div>

@@ -6,7 +6,7 @@ import {motion, useInView} from "framer-motion";
 const metricsArr = [
     {
         id: 1,
-        value: "40",
+        value: "45",
         label: "Creative Projects Delivered",
         description: "Delivered a wide range of creative projects across videography, photography, editing, graphic design tailored to client's vision and audience."
 
@@ -15,7 +15,7 @@ const metricsArr = [
 
     {
         id: 2,
-        value: "15+",
+        value: "30+",
         label: "Events Documented",
         description: "Captured a wide range of events, from student-led initiatives to client events, focusing on key moments, atmosphere, and authentic storytelling across diverse environments."
 
@@ -24,7 +24,7 @@ const metricsArr = [
 
     {
         id: 3,
-        value: "45K",
+        value: "60K",
         label: "Social Media Views",
         description: "Generated over 45,000 views across Instagram content within a three-month period, reflecting strong audience engagement and visual reach."
         
@@ -52,7 +52,7 @@ const metricsArr = [
     {
        
         id: 6,
-        value: "90+",
+        value: "100+",
         label: "Hours of Footage Edited",
         description: "Cumulatively edited and refined over 90 hours of raw footage across multiple events and creative projects."
 
@@ -72,7 +72,7 @@ export const Metrics = () => {
             initial={{opacity:0, y:50}}
             animate={isInView ? {opacity: 1, y: 0} : {opacity: 0, y: 50}}
             transition={{duration: 0.8}}
-            className="container mx-auto px-4 py-5 text-white"
+            className="container mx-auto px-4 py-10 text-white"
             
             >
                 <motion.h2 

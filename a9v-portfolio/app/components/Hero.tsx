@@ -35,7 +35,7 @@ export const Hero = () => {
                             Welcome to <br/> <span className="text-blue-300 font-bold text-5xl md:text-8xl">The A9 Visuals</span>
                         </motion.h1>
                         <p className="hero-p text- md:text-2xl text-white/80 max-w-none mx-auto leading-relaxed mb-6">
-                            We are a Toronto-based visual production team specializing in videography and post-production, crafting engaging visuals through storytelling and precise editing. 
+                            We are Toronto-based visual production team specializing in videography and post-production, crafting engaging visuals through storytelling and precise editing. 
                             <br/>
 
                         
@@ -44,7 +44,7 @@ export const Hero = () => {
                         <div className="flex gap-8 justify-center">
                             <Link href="#contact">
                             <motion.button
-                                className="px-6 py-3 bg-gradient-to-r from-blue-700 to-blue-400/60 rounded-full font-bold hover:bg-blue-700 transition-colors"
+                                className="px-6 py-3 bg-gradient-to-r text-xl from-blue-700 to-blue-400/60 rounded-full font-bold hover:bg-blue-700 transition-colors"
                                 whileHover={{scale:1.2}}>
                                 Contact Us
                             </motion.button>
@@ -54,7 +54,7 @@ export const Hero = () => {
                             
                             <Link href="#portfolio">
                                 <motion.button
-                                    className="px-6 py-3 border border-blue-100/20 border-[1px] rounded-full font-bold hover:bg-blue-700 transition-colors"
+                                    className="px-6 py-3 border border-blue-100/20 text-xl border-[1px] rounded-full font-bold hover:bg-blue-700 transition-colors"
                                     whileHover={{scale:1.2}}>
                                     View Work
                                 </motion.button>
@@ -64,7 +64,7 @@ export const Hero = () => {
 
                             <a href="https://www.instagram.com/thea9visuals/" target="_blank">
                              <motion.button
-                                    className="px-6 py-3 border border-blue-100/20 hover:bg-[linear-gradient(to_right,#ec0075_15%,#ff6903_55%,#ffd366_85%)] rounded-full font-bold transition-colors"
+                                    className="px-6 py-3 border border-blue-100/20 text-xl hover:bg-[linear-gradient(to_right,#ec0075_15%,#ff6903_55%,#ffd366_85%)] rounded-full font-bold transition-colors"
                                     whileHover={{scale:1.2}}>
                                     Follow Us
                                 </motion.button>

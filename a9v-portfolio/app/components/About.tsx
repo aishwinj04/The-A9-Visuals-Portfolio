@@ -26,20 +26,17 @@ export const About = () => {
                 <div className="border border-white/20 rounded-lg p-6">
                     <h3 className="text-2xl font-bold mb-2">01. Background</h3>
                     <p className="text-white/70 text-mb-6">
-                   At A9 Visuals, we are built on a passion for turning ideas into compelling motion stories. 
-                   What began as a dedicated videography practice has grown into a full-service video production studio, offering everything from concept development to cinematography, editing, and color grading to support complete brand storytelling.
-                   We blend creativity with technical expertise and a strong attention to detail, ensuring every project, whether a brand film, commercial, or documentary piece, communicates purpose and impact. 
-                   From first pitch to final cut, we are committed to crafting videos that engage audiences, elevate brands, and leave a lasting impression.
+                   A9 Visuals is a Toronto-based videography team specializing in capturing life's special moments. From birthdays and engagement parties to gender reveals and other celebrations, we create event films that preserve the energy, emotions, and memories of every occasion. Through thoughtful cinematography and professional editing, we turn meaningful moments into videos worth revisiting.
                     </p>
 
-                    <h3 className="text-xl font-bold mt-12 mb-2">Experience with:</h3>
+                    <h3 className="text-xl font-bold mt-2 mb-2">Experience with:</h3>
                     <div className="grid grid-cols-3 mb-2 gap-5">
-                        <Image src={app1} alt="fcpx" className="w-[100px]"></Image>
-                        <Image src={app2} alt="dvr" className="w-[100px]"></Image>
-                        <Image src={app3} alt="lrc" className="w-[100px]"></Image>
-                        <Image src={app4} alt="ps" className="w-[100px]"></Image>
-                        <Image src={app5} alt="ind" className="w-[100px]"></Image>
-                        <Image src={app6} alt="illustrator" className="w-[100px] rounded-2xl"></Image>
+                        <Image src={app1} alt="fcpx" className="w-[90px]"></Image>
+                        <Image src={app2} alt="dvr" className="w-[90px]"></Image>
+                        <Image src={app3} alt="lrc" className="w-[90px]"></Image>
+                        <Image src={app4} alt="ps" className="w-[90px]"></Image>
+                        <Image src={app5} alt="ind" className="w-[90px]"></Image>
+                        <Image src={app6} alt="illustrator" className="w-[90px] rounded-2xl"></Image>
 
                         
                         
@@ -51,21 +48,14 @@ export const About = () => {
                 <div className="border border-white/20 rounded-lg p-6">
                     <h3 className="text-2xl font-bold mb-2">02. Expertise</h3>
                     <p className="text-white/70">
-                    Our expertise lies in crafting high-impact visual stories through professional videography. We specialize in cinematic filming, precise editing, and creative color grading to ensure every project feels polished and intentional. 
-                    With hands-on experience across events, promotional campaigns, and creative projects, we transform raw footage into compelling videos that captivate, communicate, and bring each client's vision to life.
-                    
+                   Our expertise lies in cinematic storytelling, professional videography, and polished post-production. We combine intentional camera work, creative composition, dynamic editing, and refined color grading to transform raw footage into visually compelling films. Every frame is carefully crafted to capture the atmosphere, emotion, and details that make each story unique.
                     </p>
                     <div className="mt-4 relative border border-white/20 rounded-lg p-4 h-[200px] overflow-hidden">
                         <Image src={exp1} alt="project1" className="rounded-lg" layout="fill" objectFit="cover"></Image>
                         
 
                     </div>
-                    <div className="mt-4 relative border border-white/20 rounded-lg p-4 h-[200px] overflow-hidden">
-                        <Image src={exp2} alt="project2" className="rounded-lg" layout="fill" objectFit="cover"></Image>
-                        
-
-                    </div>
-    
+                  
                     
 
                 </div>
@@ -98,29 +88,8 @@ export const About = () => {
                         </div>
 
                         
-                        <div className="border border-white/20 rounded-lg p-3 wrap-break-word">
-                            <h4 className="text-blue-300 text-lg font-medium mb-2">Web Design</h4>
-                            <ul className="text-white/50 space-y-1 text-sm">
-                                <li>Responsive Website Design</li>
-                                <li>Modern Landing Page</li>
-                                <li>Portfolio Page Designs</li>
-                                <li>Creative Studio Sites</li>
-                            </ul>
-                        </div>
-
-
-                         <div className="border border-white/20 rounded-lg p-3 wrap-break-word">
-                            <h4 className="text-blue-300 text-lg font-medium mb-2">Graphic Design</h4>
-                            <ul className="text-white/50 space-y-1 text-sm">
-                                <li>Social Media Graphics</li>
-                                <li>Posters & Promotional Designs</li>
-                                <li>Marketing and Campaign Visuals</li>
-                                <li>Business Card Designs</li>
-                                <li>Brochure & Pamphlet Designs</li>
-                                <li>Print-Ready Design Assets</li>
-                            </ul>
-                        </div>
-
+                       
+                        
                          
 
                         
@@ -130,6 +99,7 @@ export const About = () => {
 
             </div> 
 
+        {/*
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
             <div className="border border-white/20 rounded-lg p-6">
                 <div className="space-y-4">
@@ -152,11 +122,14 @@ export const About = () => {
                 </div>
 
                 
+            
                 <h3 className="text-2xl font-bold mt-4 mb-2">04. Approach</h3>
                 <p className="text-white/70">
                 Every project starts with a vision. By diving deep into your ideas, we translate them into visuals that engage and inspire.
                     From planning and shooting to post-production, precision and creativity guide every decision with 100% hands on production.
                 </p>
+
+            
 
             </div>
         
@@ -178,6 +151,8 @@ export const About = () => {
 
             </div>
         </div>
+
+        */}
 
 
         </section>
