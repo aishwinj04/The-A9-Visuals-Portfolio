@@ -139,9 +139,10 @@ export const Portfolio = () => {
     const [selectedProject, setSelectedProject] = useState(projects[0])
     return (
         <section id="portfolio" className="py-12 text-white">
-            <div className="mx-auto px-4 max-w-7xl grid lg:grid-cols-2 gap-12"> 
+             <h2 className="mx-auto px-4 max-w-7xl  text-6xl font-bold mb-10">Featured <span className="text-blue-300">Projects</span></h2>
+            <div className="mx-auto px-4 max-w-7xl grid lg:grid-cols-[2fr_3fr] gap-10"> 
                 <div>
-                    <h2 className="text-6xl font-bold mb-10">Featured <span className="text-blue-300">Projects</span></h2>
+                   
                     {projects.map((project) => (
                         <div 
                             key={project.id} 
@@ -185,13 +186,14 @@ export const Portfolio = () => {
                                             {(selectedProject.id === 1 ||selectedProject.id === 2 || selectedProject.id === 3 || selectedProject.id === 4 || selectedProject.id === 5 || selectedProject.id === 9) ? "View Video" : "View More"}
                                         </motion.button> 
 
-                                         <Image 
-                    src={selectedProject.image.src}
-                    alt={selectedProject.title} 
-                    width={1000}
-                    height={1000}
-                    className="rounded-xl shadow-xl my-auto">
-                </Image>
+                                         <Image
+                                            src={project.image.src}
+                                            alt={project.title}
+                                            width={1000}
+                                            height={1000}
+                                            className="rounded-xl shadow-xl my-4 w-full h-auto lg:hidden" />
+
+                                         
                                     </a>
                                     
 
@@ -211,7 +213,21 @@ export const Portfolio = () => {
                
 
                 </div>
-                
+
+               {/* Right column: desktop only */}
+<div className="hidden lg:block ">
+    <div className="sticky top-24">
+        <a href={selectedProject.projectLink} target="_blank" rel="noopener noreferrer">
+            <Image
+                src={selectedProject.image.src}
+                alt={selectedProject.title}
+                width={1000}
+                height={1000}
+                className="rounded-xl shadow-xl w-full h-auto"
+            />
+        </a>
+    </div>
+</div>
 
                
                 
